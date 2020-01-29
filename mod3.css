@@ -1,6 +1,7 @@
 <style>
 body {box-sizing:border-box; background-color:beige;}
 
+
 #header-nav {background-color:#87D600; border:0; border-radius: 0;
 }
 
@@ -21,15 +22,23 @@ h2 {font-family: 'Bangers', cursive;font-size:1.8em; color:black; padding-bottom
 
 #collapsable-nav {
     width: 110%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-#nav-list span {font-family: 'Bangers', cursive;font-size:1.8em; color:white; vertical-align:middle;
-	     padding-left: 5px;}
-#nav-list a {height:40px;text-align:center;background-color:#73AF00;}
+#nav-list span {font-family: 'Bangers', cursive;font-size:1.8em; color:white; vertical-align:middle; padding-left: 5px;}
+
+#nav-list a{
+    height: 40px;
+    text-align: center;
+    background-color: #73AF00;
+    top: -7px;
+}
+
 #nav-list a:hover {background-color:#2D7500;}
 
 #content {margin-top:20px;margin-bottom:20px;}
-
 
 .content-section { padding: 10px 30px 20px 30px;
 	background-color:#B9B9B9;
